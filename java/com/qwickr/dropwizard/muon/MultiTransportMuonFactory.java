@@ -1,10 +1,10 @@
 package com.qwickr.dropwizard.muon; 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import io.muoncore.SingleTransportMuon;
+import io.muoncore.MultiTransportMuon;
 import java.util.List;
 
-public class SingleTransportMuonFactory {
+public class MultiTransportMuonFactory {
     
    private String connectionUrl;
    private String serviceName;

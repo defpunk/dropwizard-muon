@@ -8,7 +8,7 @@
     :main false
     :name com.qwickr.dropwizard.muon.MuonFactory
      :prefix java-
-     :methods [^:static [build [com.qwickr.dropwizard.muon.SingleTransportMuonFactory] io.muoncore.SingleTransportMuon] 
+     :methods [^:static [build [com.qwickr.dropwizard.muon.MultiTransportMuonFactory] io.muoncore.MultiTransportMuon] 
               ])
 
 (defn- create-tags-string [x]
