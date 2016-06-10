@@ -11,6 +11,5 @@
                  [io.dropwizard/dropwizard-logging "0.8.4"]
                  [org.clojure/tools.logging "0.3.1"]
                  [com.fasterxml.jackson.core/jackson-annotations "2.6.0"] 
-                 [atticus "0.1.0-SNAPSHOT"]
                  ]
   )
